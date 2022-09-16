@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr's Life</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-style">
+            <div class="container">
+                <div  class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ID">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img class="one" src="./image/j1.png">
+               
+                </div>
+                <div class="collapse navbar-collapse" id="ID">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="quiz.html" target="_blank">Quiz</a></li>
+                <li><a href="feedback.html">Feedback Form</a></li>
+                <li><a href="form.html">Registration Form</a></li>
+                <li><a href="index.html">Contact</a></li>
+               
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <body>  
+        <form>  
+          <div class="container">  
+          <center>  <h1> Student Registeration Form</h1> </center>  
+          <hr>  
+          <label> Firstname </label>   
+        <input type="text" class="text" id="username" name="firstname" placeholder= "Firstname" size="15" required />   
+          
+        <label> Lastname: </label>    
+        <input type="text" name="lastname" class="text" id="username2" placeholder="Lastname" size="15"required />   
+        <div class="div">  
+        <label>   
+        Course :  
+        </label>   
+          
+        <select id="select">  
+        <option value="Qualification">Course</option>  
+        <option value="BCA">matric</option>  
+        <option value="BBA">olevel</option>  
+        <option value="B.Tech">Alevel</option>  
+        <option value="MBA">intermediate</option>  
+        <option value="MCA">undergraduate</option>  
+        <option value="M.Tech">graduate</option> 
+        <option value="M.Tech">Master</option>
+         <option value="M.Tech">Other</option>  
+        </select>  
+        </div>  
+        <div class="div">  
+        <label>   
+        Gender :  
+        </label><br>  
+        <input type="radio" class="gender" value="Male" name="gender" checked > Male   
+        <input type="radio" class="gender"  value="Female" name="gender"> Female   
+        <input type="radio" class="gender"  value="Other" name="gender"> Other  
+          
+        </div>  
+        <label>   
+        Phone :  
+        </label>  
+        <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+        <input type="text" name="phone" id="phone" placeholder="phone no." size="10"/ required>  <br> <br>
+        Current Address :  
+        <textarea cols="80" rows="1"  id="address" placeholder="Current Address" value="address" required>  
+        </textarea>  <br> <br>
+         <label for="email"><b>Email</b></label>  
+         <input type="text" id="un" placeholder="Enter Email" name="email" required>  <br><br>
+          
+            <label for="psw"><b>Password</b></label>  
+            <input type="password" id="password" placeholder="Enter Password" name="psw" required> <br><br> 
+          
+            <label for="psw-repeat"><b>Re-type Password</b></label>  
+            <input type="password" id="re" placeholder="Retype Password" name="psw-repeat" required>  <br><br>
+            <button type="submit" id="button" class="registerbtn" > Register 
+            </button>
+
+        </form>  
+     
+        <script src="index.js"></script>
+     
+        </body>  
+
+       
+        </html>  
